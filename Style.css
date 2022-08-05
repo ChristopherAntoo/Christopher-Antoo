@@ -1,0 +1,65 @@
+#screen{
+    width: 35em;
+    height: 25em;
+    outline: none;
+    background-color: rgb(142, 142, 194);
+}
+
+.btn{
+    width: 10em;
+    height: 5em;
+}
+
+.list-style{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+#contact-section{
+    background-color: blueviolet;
+    padding: 7em;
+}
+
+#footer{
+    background-color: rgb(67, 67, 106);
+
+}
+
+/* #about-section{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-aquo8KS-VdTlhuNWVj4Rn8GFgqtoAiUPg&usqp=CAU");
+} */
+
+#service-section{
+    padding: 7em;
+    background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b25lJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80");
+}
+
+#about-section{
+    background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b25lJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80");
+}
+
+#skills-section{
+    background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b25lJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80");
+}
+#home-section{
+    background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b25lJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80");
+    padding: 5em;
+}
+
+.para{
+    font-size: large;
+    color: chartreuse;
+}
+
+#change-roles-home{
+    color: chartreuse ;
+    font-size: 4em;
+}
+
+#paraa{
+    font-size: 2em;
+}
+
+#nav{
+    color: aliceblue;
+}
