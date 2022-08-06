@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +10,12 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
  </script>
- <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="Style.css">
  <script src="jscript.js"></script>
  
 </head>
 <body>
+  <!-- =====================================header========================================= -->
     <header class="bg-danger" style="position: fixed;width:100%;z-index:1;">
         <div class="row text-white">
             <div class=" pt-3 ps-3">
@@ -42,7 +43,9 @@
         </div>
         </div>
     </header>
+ 
 
+  <!-- =====================================home-section========================================= -->
     <section class="bg-white" id="home-section">
       <div class="container">
         <div class="row pt-5">
@@ -58,17 +61,20 @@
           </div>
           <div class="col-md-5">
             <img src="https://www.santander.com/content/dam/santander-com/es/stories/cabecera/2021/innovaci%C3%B3n/im-storie-el-talento-techie-imparable-dentro-del-sector-bancario-desktop.jpg" alt="simple img" width="500em"class="img-fluid rounded-circle p-3 ">
+            <p id="paraa"><i>"Choosing <strong>Tougher</strong>,Facing <strong>Bitter</strong>,Made me <strong>BETTER!</strong>" </i><br>-Christopher</p><br><br><br><br>
           </div>
           <div class="col-md-6 p-5">
             <h1>Hi there,</h1><br><h2>I'm Christopher</h2><br><br>
             <div class="changer-container"><span id="change-roles-home">Front-end Developer</span></div><br><br>
-            <p id="paraa"><i>"Choosing <strong>Tougher</strong>,Facing <strong>Bitter</strong>,Made me <strong>BETTER!</strong>" </i><br>-Christopher</p><br><br><br><br>
+            
             
           </div>
         </div>
       </div>
     </section>
+    
 
+    <!-- =====================================about-section========================================= -->
     <section class="bg-light pt-5" id="about-section">
       <header>
         <h1 class="text-center pt-3">About me</h1>
@@ -76,10 +82,11 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 col-4">
-            <img src="https://i.pinimg.com/originals/99/11/c9/9911c90154c8560f06ebe1e07a310f88.jpg" alt="img" width="500em" class="img-fluid rounded-circle">
+            <img src="E:\images\Christopher_img.jpg" alt="img" width="500em" class="img-fluid rounded-circle">
           </div>
           <div class="col-md-5 col-8">
-            <p class="para">Hi, I am a self-taught programmer from Pala, Kottayam. I started learning coding at the age of 16. <br><br>
+            <p class="para">Hi, I am a self-taught programmer from Pala, Kottayam. I started learning coding at the age of 16
+              .But the constant efforts done on the last month(July 2022) mould me as a talented Developer  <br><br>
 
               I am good with python. And I know HTML, CSS and JavaScript enough to create a quality static website. <br><br>
               
@@ -91,6 +98,8 @@
         </div>
       </div>
     </section>
+
+<!-- =================================service-section========================================= -->
 
     <section id="service-section">
       <div class="container pt-5">
@@ -126,11 +135,11 @@
     </div>
     <div class=" bg-warning pl-5 mt-2">
       <h4><strong>Got an idea, then I am the guy for your website</strong> </h4>
-    <button class="bg-primary">Contact me</button>
+    <button><a href="#contact-section">Contact me</a></button>
   </div>
     </section>
-
-   <section id="skills-section">
+    <!-- =====================================skills-section========================================= -->
+    <section id="skills-section">
 
       <div class="skills-container pt-5">
         <h2 class="text-center text-danger pt-3"><b>Skills</b></h2>
@@ -173,8 +182,10 @@
   </div>
       
     </section>
+
+    <!-- =====================================contact-section========================================= -->
     <section id="contact-section">
-      <div class="container">
+      <div class="container pt-5">
         <h1 class="text-center ">Contact me</h1>
         <div class="row">
           <form>
@@ -212,6 +223,8 @@
         </div>
       </div>
     </section>
+
+    <!-- ====================================footer========================================= -->
     <footer id="footer">
       <div class="container">
         <div class="row text-center">
@@ -230,14 +243,18 @@
               skillLevel = document.getElementById("level-skill-edit");
           skillType.innerHTML  = type;
           skillLevel.innerHTML = level;
+          
+      }
+  </script>
     <script>
     var typed = new Typed('#change-roles-home', {
-      strings: ["Front-end Developer","Graphic Designer","Python Programmer","Web Developer","Explorer"],
+      strings: ["Front-end Developer","Graphic Designer","Python Programmer","Explorer"],
       typeSpeed:60,
       backSpeed: 50,
       backDelay:300,
       loop: true
     });
+    
     
     
   </script>
