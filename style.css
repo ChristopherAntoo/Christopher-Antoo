@@ -63,3 +63,14 @@
 #nav{
     color: aliceblue;
 }
+
+.skills-desc{
+    font-size: larger;
+    color: chartreuse;
+    
+}
+
+.bu-t{
+    background-color: black;
+    text-decoration: none;
+}
